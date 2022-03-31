@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abri estas imagens em varios dispositivos diferentes ou diminua o tamanho do seu navegador.</p>
+
+   <picture>
+       <source media="(max-width: 750px)" srcset="imagens/imgp.png" type="image/png">
+       <source media="(max-width: 1050px )" srcset="imagens/imgm.png" type="image/png">
+       <img src="imagens/imgg.png" alt="imagens flexiveis">
+   </picture>
+   <h1>Reproduzindo audios</h1>
+   <p>Vamos reproduzir audios</p>
+   <audio src="media/audioteste.ogg" controls  autoplay></audio>
+   <audio preload="metadata" autoplay controls>
+     <source src="media/audioteste.ogg" type="audio/ogg">
+     <source src="media/audioteste.mp3" type="audio/mp3"> 
+     <source src="media/audioteste.wav" type="audio/wav"> 
+      
+   </audio>
+   <audio src="media/Serviços da Jasp (1).mp3" controls autoplay></audio>
+<h1>
+    Rodando video hodpedado localmente 
+</h1>
+<p>Este video está hospedaddo no meu proprio servidor</p>
+
+<video width="560" height="315" poster="imagens/imgp.png" controls autoplay loop 
+src="media/meuvideo.mp4"></video>
+ <h1>Iseriro video do youtube</h1>
+ <p>Este video é do youtube</p>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/   P1GRO31ve5Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/P1GRO31ve5Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
+    
+</body>
+</html>

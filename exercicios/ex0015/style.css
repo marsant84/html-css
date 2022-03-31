@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(212, 234, 248);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+h1{
+  color: blue; 
+  background-color: rgb(62, 3, 117); 
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+h2 {
+    color: cornflowerblue;
+}
+p {
+    color: coral;
+    text-align: justify;
+}
